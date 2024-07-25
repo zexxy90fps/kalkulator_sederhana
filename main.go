@@ -7,7 +7,7 @@ func main() {
 	var operator string
 
 	//meminta input dari pengguna
-	fmt.Println("masukan angka pertama: ")
+	fmt.Println("masukan angka pertamamu: ")
 	_, err1 := fmt.Scanln(&num1)
 	if err1 != nil {
 		fmt.Println("input tidak valid: ", err1)
